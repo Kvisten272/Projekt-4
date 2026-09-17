@@ -32,6 +32,7 @@ while (hpA > 0 && hpB > 0)
     runda++;
 
     Thread.Sleep(1000); 
+}
 
     if (hpA <= 0 && hpB <= 0)
     Console.WriteLine("Oavgjort! Båda gick under 0 samtidigt.");
@@ -39,7 +40,6 @@ else if (hpA <= 0)
     Console.WriteLine($"{namnB} vinner!");
 else
     Console.WriteLine($"{namnA} vinner!");
-}
 
 Console.WriteLine("Bra match!");
     Console.ReadLine();
